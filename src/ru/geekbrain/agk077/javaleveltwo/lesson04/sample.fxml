@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrain.agk077.javaleveltwo.lesson04.Controller">
+    <children>
+        <Button fx:id="btnSend" layoutX="477.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnSendClickAction" prefHeight="25.0" prefWidth="109.0" text="Отправить" />
+        <TextField fx:id="chatMessageBox" layoutX="14.0" layoutY="361.0" prefHeight="25.0" prefWidth="454.0" />
+        <TextArea fx:id="chatTextArea" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="340.0" prefWidth="454.0" />
+        <Label fx:id="lbUser1" layoutX="477.0" layoutY="33.0" onMouseClicked="#labelClick" text="User1" />
+        <Label fx:id="lbUser2" layoutX="477.0" layoutY="50.0" onMouseClicked="#labelClick" text="User2" />
+        <Label fx:id="lbUser3" layoutX="477.0" layoutY="67.0" onMouseClicked="#labelClick" text="User3" />
+        <Label layoutX="477.0" layoutY="14.0" text="Сейчас в чате:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
